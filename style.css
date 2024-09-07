@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: bnaz;
+}
+
+@font-face {
+    font-family: bnaz;
+    src: url("font/Calibri/Calibri.ttf");
+}
+
+nav {
+    height: 70px;
+}
+
+.search {
+    height: 40px;
+    background-color: rgb(226, 226, 226) !important;
+    border: none;
+}
+
+.img-square-menu
+{
+    width: 24px;
+    height: 24px;
+    opacity: 60%;
+}
+.i-gear
+{
+    font-size: 20px;
+}
+
+
+.d-row-menu:hover {
+    background-color: #FAE6E5;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: red !important;
+    font-weight: bold;
+}
+
+.d-contain-top-noti {
+    height: 55px;
+}
+
+.d-top-noti {
+    width: 200px;
+}
+
+.d-primary {
+    height: 60px;
+}
+
+.d-primary span {
+    font-weight: bold;
+}
+
+.d-contain-text {
+    height: 72vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 16px;
+    overflow-y: scroll;
+}
+
+
+.d-text {
+    height: 48px;
+    border-left: 8px solid rgb(240, 240, 240);
+
+}
+
+.d-text:hover {
+    background-color: #C5DCFC;
+    border-left: 8px solid blue;
+}
+
+
+.d-text div:nth-of-type(3) {
+    font-size: 12px;
+}
+
+.d-left-text {
+    min-width: 120px;
+    height: 48px;
+}
+
+.d-left-text span {
+    font-weight: bold;
+}
+
+
+.d-matn {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.d-right
+{
+    width: 24px;
+    height: 24px;
+    margin-top: 24px;
+}
